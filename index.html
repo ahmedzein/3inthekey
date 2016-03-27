@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>3 In The Key Basketball Podcast</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/type.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+<!--  put favicon in here -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+<body>
+  
+  <ul class="skip-link">
+    <li class="gutter"><a href="#main">Skip to main content</a></li>
+    <li><a href="#navigation">Skip to main navigation</a></li>
+  </ul>
+  
+  <header class="header">
+    
+<!--    3 in the key logo-->
+    <div class="grid gutter-1-2">
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+        <a href="index.html" class="">
+          <img class="header-logo" src="images/lion-logo.svg" alt="">
+        </a>
+      </div>
+    </div>
+<!--    Toggle-->
+  </header>
+<!--  billboard-->
+  <main>
+  
+    <div>
+        <div id="nav-trigger">
+            <span>&#9776;</span>
+        </div>
+        <nav id="nav-main">
+            <ul>
+                <li><a href="">The Podcast</a></li>
+                <li><a href="">Elias El-Zein</a></li>
+                <li><a href="">Dave Tripp</a></li>
+                <li><a href="">Will Macklin</a></li>
+            </ul>
+        </nav>
+        <nav id="nav-mobile"></nav>
+      </div>
+  
+  
+  
+  </main>
+  
+<!--  Main content-->
+  <article class="grid">
+  
+  
+  </article>
+  
+  <footer class="grid">
+  
+  
+  </footer>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#nav-mobile").html($("#nav-main").html());
+        $("#nav-trigger span").click(function(){
+            if ($("nav#nav-mobile ul").hasClass("expanded")) {
+                $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+                $(this).removeClass("open");
+            } else {
+                $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+                $(this).addClass("open");
+            }
+        });
+    });
+</script>
+<script src="/js/main.js"></script>
+</body>
+</html>
