@@ -74,7 +74,7 @@ body {
 
 .header-logo {
   position: relative;
-  height: 96px;
+  height: 4rem;
   width: auto;
   padding-top: 0.75rem;
   width: auto;
@@ -137,7 +137,8 @@ nav#nav-main {
   nav#nav-main a {
     display: block;
     color: white;
-    padding: 10px 30px; 
+    padding: 10px 30px;
+    text-decoration: none;
 }
     nav#nav-main a:hover {
       background-color: #f26522;
@@ -150,7 +151,7 @@ nav#nav-mobile {
   nav#nav-mobile ul {
     display: none;
     list-style-type: none;
-    position: absolute;
+/*    position: absolute;*/
     left: 0;
     right: 0;
     margin-left: auto;
@@ -170,7 +171,8 @@ nav#nav-mobile {
   nav#nav-mobile a {
     display: block;
     color: white;
-    padding: 10px 30px; 
+    padding: 10px 30px;
+    text-decoration: none;
 }
     nav#nav-mobile a:hover {
       background-color: #f26522;
