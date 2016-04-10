@@ -44,31 +44,36 @@ body {
     top: 0;
 }
 
-@media only screen and (min-width: 60em) {
-    html {
-        font-size: 110%;
-  }
-   
-}
-
 @media only screen and (min-width: 90em) {
     html {
         font-size: 120%;
     }
-    
+  
+  .box-call {
+    bottom: 150px;
+  }
+  .title {
+  font-size: 7rem;
+  }
+  #nav-trigger {
+    left: 35%;
+  }
 }
 
 @media only screen and (min-width: 120em) {
     html {
         font-size: 130%;
     }
-    
+  
+  .box-call {
+    bottom: 180px;
+  }
 }
 
 .header {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #fff;
   width: 100%;
 }
 
@@ -85,6 +90,9 @@ body {
 #nav-trigger {
   display: none;
   text-align: right;
+  padding-top: 1rem;
+  position: relative;
+  left: 20%;
 }
   #nav-trigger span {
     display: inline-block;
@@ -190,6 +198,10 @@ nav#nav-mobile {
   nav#nav-mobile {
     display: block; 
   }
+
+.social-toggle {
+  display: inline-block;
+}
   
 @media all and (max-width: 900px) {
   #nav-trigger {
@@ -200,6 +212,171 @@ nav#nav-mobile {
 
   nav#nav-mobile {
     display: block; } }
+/*////////////BANNER BILLBOARD///////////*/
+.banner {
+  position: relative;
+  padding-top: 65%;
+  overflow: hidden;
+  display: block;
+}
+
+.thekey {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  overflow: visible;
+  height: 100%;
+  width: 100%;
+  background: black url(../images/billboard.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.wrap-bloc {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 70px;
+/*  border: 1px solid green;*/
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.box {
+  margin: -27px auto 0;
+}
+
+.banner-face {
+  min-width: 45px !IMPORTANT;
+  width: 25%;
+  -webkit-animation: face-roll 5s linear infinite;
+  animation: face-roll 5s linear infinite;
+}
+
+@-webkit-keyframes face-roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes face-roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box-call {
+  position: relative;
+  display: block;
+  background-color: #ff9650;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 1.5745rem;
+  line-height: 2.2750rem;
+}
+
+/*////////////SC///////////*/
+.sc-bg {
+  background: white url(../images/key-bg.png) no-repeat center center;
+  background-size: cover;
+  }
+.sc-icon {
+  font-size: 10em;
+  display: block;
+  text-decoration: none;
+  color: #F26522;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 20em;
+  line-height: 0.500rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: none;
+}
+
+.btn-listen {
+  background-color: #F26522;
+  border-radius: 10px;
+  display: block;
+  color: white;
+  width: 10em;
+  height: 2em;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn-listen:hover {
+  background-color: black;
+  color: #F26522; 
+}
+
+/*////////////About Us Individual///////////*/
+.box-cont {
+  max-width: 30em;
+  margin: 0 auto;
+}
+.name {
+  width: 65%;
+  margin: auto;
+  height: auto;
+  display: block;
+}
+.face {
+  width: 80%;
+  max-width: 90% !IMPORTANT;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+.twitter {
+  text-decoration: none;
+  color: black;
+  font-size: 5em;
+  text-align: center;
+  display: block;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  text-align: center;
+}
+/*////////////FOOTER///////////*/
+footer {
+  background-color: #ff9650;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+/*////////////ICONS FOOTER///////////*/
+.ft-icon {
+  font-size: 2em;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 20em;
+}
+
+.ft-icon:hover {
+  color: white;
+}
 
 /*//////////////////////MEDIA QUERIES/////////////////*/
 
@@ -207,8 +384,35 @@ nav#nav-mobile {
 }
 
 @media only screen and (min-width: 38em) {
+  .box-call {
+    background-color: transparent;
+    bottom: 50px;
+    font-size: 1.5745rem;
+    line-height: 2.2750rem;
+  }
   
+  #nav-trigger {
+    left: 30%;
+  }
+  .title {
+  font-size: 3.5rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
+    html {
+        font-size: 110%;
+  }
+  .box-call {
+    bottom: 90px;
+  }
+  .title {
+  font-size: 5rem;
+  }
+  .twitter {
+    font-size: 8em;
+  }
+  #nav-trigger {
+    left: 35%;
+  }
 }
