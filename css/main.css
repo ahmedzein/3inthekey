@@ -116,7 +116,9 @@ footer p a:hover {
   width: auto;
 }
 
-
+.x-o {
+  background: white url(../images/bg.svg);
+}
 /*////////////////TOGGLE/////////////////*/
 
 #nav-trigger {
