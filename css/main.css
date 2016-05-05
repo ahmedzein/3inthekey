@@ -119,6 +119,8 @@ footer p a:hover {
 .x-o {
   background: white url(../images/bg.svg);
 }
+
+
 /*////////////////TOGGLE/////////////////*/
 
 #nav-trigger {
@@ -366,7 +368,7 @@ nav#nav-mobile {
   text-decoration: none;
   color: #F26522;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 6rem;
   max-width: 20em;
   line-height: 0.500rem;
 }
@@ -513,7 +515,11 @@ footer p {
     display: none;
   }
   .twitterTwo {
-    display: block;
+    display: block; 
+  }
+  nav#nav-main a:hover {
+    background-color: transparent;
+    color: #f26522;
   }
 }
 
