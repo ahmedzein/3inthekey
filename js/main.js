@@ -1,3 +1,3 @@
 //Scroll
 
-$('.nav-mobile').localScroll();
+$('.nav').localScroll();
