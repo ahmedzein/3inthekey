@@ -363,14 +363,10 @@ nav#nav-mobile {
 }
 
 .sc-icon {
-  font-size: 10em;
+  min-width: 60px !IMPORTANT;
+  width: 60%;
   display: block;
-  text-decoration: none;
-  color: #F26522;
-  text-align: center;
-  margin: 0 auto 6rem;
-  max-width: 20em;
-  line-height: 0.500rem;
+  margin: auto;
 }
 
 a {
@@ -422,22 +418,12 @@ p a {
   display: block;
 }
 
-.twitter,
-.twitterTwo {
-  text-decoration: none;
-  color: black;
-  font-size: 5em;
-  text-align: center;
+.twitter {
+  min-width: 45px !IMPORTANT;
+  width: 20%;
   display: block;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  text-align: center;
+  margin: auto;
 }
-
-.twitterTwo {
-  text-align: left;
-}
-
 
 /*////////////FOOTER///////////*/
 
@@ -454,27 +440,18 @@ footer p {
 /*////////////ICONS FOOTER///////////*/
 
 .ft-icon {
-  font-size: 2em;
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  text-align: center;
+  min-width: 45px !IMPORTANT;
+  width: 10%;
+}
+
+.box-ft {
+  max-width: 50em;
   margin: 0 auto;
-  max-width: 20em;
+  text-align: center;
 }
-
-.ft-icon:hover {
-  color: white;
-}
-
 
 /*//////////////////////MEDIA QUERIES/////////////////*/
 
-@media only screen and (min-width: 0em) {
-  .twitterTwo {
-    display: none;
-  }
-}
 
 @media only screen and (min-width: 25em) {
   nav#nav-mobile a {
@@ -511,12 +488,6 @@ footer p {
   .grid:last-child {
     margin-bottom: 2rem;
   }
-  .twitter {
-    display: none;
-  }
-  .twitterTwo {
-    display: block; 
-  }
   nav#nav-main a:hover {
     background-color: transparent;
     color: #f26522;
@@ -532,9 +503,6 @@ footer p {
   }
   .title {
     font-size: 5rem;
-  }
-  .twitter {
-    font-size: 8em;
   }
   #nav-trigger {
     display: none;
