@@ -317,7 +317,7 @@ nav#nav-mobile {
 
 .banner-face {
   min-width: 45px !IMPORTANT;
-  width: 25%;
+  width: 20%;
   -webkit-animation: face-roll 5s linear infinite;
   animation: face-roll 5s linear infinite;
 }
