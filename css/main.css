@@ -485,6 +485,35 @@ footer p {
   box-shadow: 0 1px 10px rgba(0,0,0,0.6);
 }
 
+/******************GRAM BG*****************/
+
+.gram-bg {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.6);
+}
+
+.ig-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  max-width: 80%;
+  background: #ff9650;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.75em;
+}
+
+.ig-btn:hover {
+  color: white;
+  background: #e37222;
+}
+
+.ig-btn a {
+  color: white;
+}
+
 /*//////////////////////MEDIA QUERIES/////////////////*/
 
 /* mobile */
@@ -535,6 +564,12 @@ footer p {
     background-color: transparent;
     color: #000;
   }
+
+  .ig-btn {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+
 }
 
 /* desktop */
