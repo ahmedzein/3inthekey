@@ -39,17 +39,3 @@
     $('.overlay').css('height', window.innerHeight);
   });
 }(window))
-
-// // instagram feed
-// $(document).ready(function(){
-//   var UserFeed = new Instafeed({
-//     get:'user',
-//     userID:'',
-//     limit: 6,
-//     resolution:'standard_resolution',
-//     accessToken:'',
-//     sortBy: 'most-recent',
-//     template: '<div class="gallery"><a href="{{image}}" title{{caption}} target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-//   });
-//   userFeed.run();
-// })
