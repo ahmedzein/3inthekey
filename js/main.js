@@ -12,7 +12,6 @@
     $('.spotify iframe').css('zIndex', '0');
   }
 
-  $('.nav').localScroll();
   $(document).ready(function () {
     $("#nav-trigger span").click(function () {
 

@@ -258,10 +258,6 @@ nav#nav-mobile a:hover {
   color: #fff;
 }
 
-nav#nav-mobile li:last-child a {
-  display: inline-block;
-}
-
 #nav-trigger {
   display: block;
 }
@@ -311,7 +307,7 @@ nav#nav-mobile {
   position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 70px;
+  bottom: 115px;
   /*  border: 1px solid green;*/
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
