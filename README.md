@@ -8,7 +8,7 @@
 Reach us at:
 
 - [Facebook](https://www.facebook.com/ThreeInTheKey/)
-- [Twitter](https://twitter.com/Basketpod)
+- [Twitter](https://twitter.com/3intheKey_TSN)
 - [Instagram](https://www.instagram.com/the3inthekey/)
 - [Soundcloud](https://soundcloud.com/3-in-the-key-585505598)
 - [the3inthekey@gmail.com](mailto:the3inthekey@gmail.com)

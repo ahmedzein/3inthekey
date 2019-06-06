@@ -307,14 +307,14 @@ nav#nav-mobile {
   position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 115px;
+  bottom: 11px;
   /*  border: 1px solid green;*/
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .box {
-  margin: -27px auto 0;
+  margin: 200px auto 0;
 }
 
 .banner-face {
