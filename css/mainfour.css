@@ -26,28 +26,28 @@ body {
 }
 
 @media only screen and (min-width: 60em) {
-  
+
   html {
     font-size: 110%;
   }
-  
-  
+
+
 }
 
 @media only screen and (min-width: 90em) {
-  
+
   html {
     font-size: 120%;
   }
-  
+
 }
 
 @media only screen and (min-width: 120em) {
-  
+
   html {
     font-size: 130%;
   }
-  
+
 }
 
 .skip-link {
@@ -70,10 +70,6 @@ body {
   top:0;
 }
 
-body {
-  background: white url(../images/bg.svg);
-  background-size: cover;
-}
 .box {
   max-width: 30em;
   margin: 0 auto;
