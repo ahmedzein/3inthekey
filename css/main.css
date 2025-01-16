@@ -97,9 +97,6 @@ footer p a:hover {
   .box-call {
     bottom: 150px;
   }
-  .title {
-    font-size: 7rem;
-  }
   #nav-trigger {
     left: 35%;
   }
@@ -114,24 +111,11 @@ footer p a:hover {
   }
 }
 
-.header {
-  margin: 0;
-  padding: 0;
-  background-color: #0c0907;
-  width: 100%;
-}
-
-.header-logo {
-  position: relative;
-  height: 2rem;
-  width: auto;
-}
-
 /*//////////////////////NAVIGATION/////////////////////*/
 
 .podcastlogo {
   position: relative;
-  height: 1.7rem;
+  height: 2.5rem;
   width: auto;
 }
 
@@ -152,9 +136,181 @@ a {
   color: #FFF;
 }
 
-.nav a {
-  color: #FFF;
+.dropdown-menu {
+  border: transparent;
+}
+
+/********************** Hero Billboard ******************************/
+
+.hero-image {
+  top: 50px;
+  display: block;
+  width: 75%;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.hero-btn {
+  display: block;
+  width: 42%;
+  background: #fff;
+  font-weight: bolder;
+  color: #121312;
+  border-radius: 10px;
+  padding: 0.2em;
+  border: 2px solid #121312;
+  transition-duration: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #121312;
+  color: white;
+}
+
+.hero-btn span {
+  margin-left: 1.5rem;
+}
+
+/*****************************underline animation************************************/
+/* .hover-underline-animation-orange {
   display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation-orange:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff9650;
+  color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation-orange:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+
+/*////////////Hosts///////////*/
+
+.host-img {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.logoX {
+  min-width: 20px !IMPORTANT;
+  width: 10%;
+  display: block;
+}
+/*////////////Our Numbers///////////*/
+
+.nbm-box {
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.nbm-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.nbm-box-1 {
+    background-color: #689daa;
+}
+.nbm-box-2 {
+  background-color: #F6AE2D;
+}
+.nbm-box-3 {
+  background-color: #5FAD41;
+}
+.nbm-box-4 {
+  background-color: #BC412B;
+}
+.nbm-box-5 {
+  background-color: #37323E;
+}
+.nbm-box-6 {
+  background-color: #7C3238;
+}
+.nbm-box-7 {
+  background-color: #995D81;
+}
+
+.numbers {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: 1.5rem
+}
+
+/*////////////Collab or Sponsor///////////*/
+
+.logo {
+  filter: grayscale(100%);
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.logo:hover {
+  filter: grayscale(0%);
+}
+/*////////////PODCAST///////////*/
+
+.info {
+  max-width: 30em;
+  margin: auto;
+}
+
+.box {
+  max-width: 44em;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.icon {
+  min-width: 45px !IMPORTANT;
+  width: 8%;
+}
+
+/*////////////FOOTER///////////*/
+
+footer .podcastlogo {
+  display: block;
+  height: 5rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+hr {
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray
+}
+
+ .nav a {
+  color: #212326;
+  display: inline-block;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #FD7E14;
 }
 
 .nav ul {
@@ -182,105 +338,66 @@ a {
   display: inline-block;
 }
 
-/*****************************underline animation************************************/
-.hover-underline-animation-orange {
-  display: inline-block;
-  position: relative;
-  /* color: #212326; */
-}
-
-.hover-underline-animation-orange:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #ff9650;
-  color: white;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation-orange:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/*////////////BANNER BILLBOARD///////////*/
-
-.banner {
-  position: relative;
-  overflow: hidden;
-  display: block;
-}
-
-.banner-img {
-  padding-top: 47%;
-  background: #0C0907 url(../images/3inthekey-BG_Basketball_Mic_3.png) no-repeat center center;
-  background-size: cover;
-}
-
-.banner-content {
-  position: absolute;
-  /* background-color: rgba(255, 255, 255, 0.55); */
-  bottom: 80px;
-  width: 100%;
-}
-
-.title {
-  font-size: 1.5745rem;
-  line-height: 2.2750rem;
-}
-
-
-
-/*////////////PODCAST///////////*/
-
-.info {
-  max-width: 30em;
-  margin: auto;
-}
-
-.box {
-  max-width: 44em;
-  text-align: center;
-  /* margin: 0 auto; */
-}
-.icon {
-  min-width: 45px !IMPORTANT;
-  width: 8%;
-}
-
-.logoX {
-  min-width: 45px !IMPORTANT;
-  width: 10%;
-  display: block;
-}
-
-/*////////////FOOTER///////////*/
-
-footer {
-  background-color: #ff9650;
-}
-
-footer p {
-  color: white;
-  text-align: center;
-}
-
-
 /*////////////ICONS FOOTER///////////*/
 
 .ft-icon {
-  min-width: 45px !IMPORTANT;
+  display: inline-block;
+  min-width: 25px !IMPORTANT;
   width: 6%;
 }
 
 .box-ft {
   max-width: 50em;
   margin: 0 auto;
+  text-align: center;
+}
+
+/*////////////CIRCLE///////////*/
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 20px;
+  height: auto;
+  display: inline-block;
+}
+
+img.bounce {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.bounce {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/*////////////CIRCLE///////////*/
+
+.host {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-body h5 {
   text-align: center;
 }
 
@@ -349,6 +466,7 @@ footer p {
   nav#nav-mobile a {
     padding: 10px 20px;
   }
+
 }
 
 /* tablet portrait*/
@@ -366,13 +484,29 @@ footer p {
   #nav-trigger {
     left: 30%;
   }
-  .title {
-    font-size: 3.5rem;
-  }
   .spotifyBtn {
     width: 60px;
     height: 60px;
     padding: 8px;
+  }
+  .hero-image {
+    width: 100%;
+  }
+  .title {
+    text-align: left;
+    padding: 0;
+  }
+  .hero-btn {
+    width: 44%;
+  }
+  .host {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .card-body h5 {
+    text-align: left;
   }
 }
 
@@ -396,9 +530,6 @@ footer p {
   html {
     font-size: 150%;
   }
-  .title {
-    font-size: 4.5rem;
-  }
   #nav-trigger {
     display: none;
   }
@@ -421,6 +552,12 @@ footer p {
     width: 70px;
     height: 70px;
     padding: 8px;
+  }
+  .hero-btn {
+    width: 50%;
+  }
+  .ft-icon {
+    width: 10%;
   }
 }
 
